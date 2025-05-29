@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cloud To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>☁️ Cloud To-Do</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    const firebaseConfig = {
+  apiKey: "AIzaSyChqVG6nmpPuJh0x21hh4NDA-a_03LiywI",
+  authDomain: "cloud-todo-4a501.firebaseapp.com",
+  projectId: "cloud-todo-4a501",
+  storageBucket: "cloud-todo-4a501.firebasestorage.app",
+  messagingSenderId: "857819621703",
+  appId: "1:857819621703:web:7a1fa95d1d37e2087e8462",
+  measurementId: "G-HG1F2CXE9P"
+};
+    // Firebase config goes here
+  </script>
+</body>
+</html>
